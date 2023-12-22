@@ -1,22 +1,13 @@
 var ggk = {
   //------------------------you have to input these data ----------------------//
-  a: function () {},
+  a: function () {
+    return [];
+  },
+  b: function () {
+    return "";
+  },
   c: function (a) {
-    var r = "";
-    var a = String(a);
-    var k = this.a();
-    for (var i = 0; i < a.length; i++) {
-      var ii = a.charAt(i);
-      if (ii == ".") {
-        r += ".";
-        continue;
-      }
-      ii = eval(ii);
-      if (ii < k.length) {
-        r += k[ii];
-      }
-    }
-    return r;
+    return "";
   },
   //------------------------you have to input these data ----------------------//
 
